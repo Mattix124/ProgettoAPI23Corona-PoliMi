@@ -12,3 +12,7 @@ O da PowerShell:
 `cmd /c 'Progetto.exe < open_"numero".txt > "nomefile".txt'`
 
 In questo modo il programma scriverà il risultato nel file "nomefile".txt.
+
+
+3. Tramite vari tool è possibile confrontare il file "nomefile".txt con il file open_"numero".output.txt estratto
+   da "archivio_test_aperti.zip".
