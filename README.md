@@ -18,3 +18,15 @@ Tempo di esecuzione ~ 0.5s. Spazio occupato ~38MB (Test da 30L su macchina del P
 
 3. Tramite vari tool è possibile confrontare il file *"nomefile".txt* con il file *open_"numero".output.txt* estratto
    da *archivio_test_aperti.zip*.
+
+Traguardi:
+**Panoramica dei voti:**
+
+| **Voto** | **Tempo Limite (s)** | **Limite di Memoria** (MB) |
+| :---: | :---: | :---: |
+| 18 | 19.0 | 128 | 
+| 21 | 15.0 | 118 |
+| 24 | 10.0 | 108 |
+| 27 | 6.0 | 98 |
+| 30 | 4.0 | 88 | 
+| 30L | 1.0 | 78 |
