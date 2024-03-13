@@ -10,4 +10,5 @@ Prova finale del corso di algoritmi e strutture dati anno 2022/2023. 30L
 O da PowerShell:
 
 `cmd /c 'Progetto.exe < open_"numero".txt > "nomefile".txt'`
+
 In questo modo il programma scriverà il risultato nel file "nomefile".txt.
