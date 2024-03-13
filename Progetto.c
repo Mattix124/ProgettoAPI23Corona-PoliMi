@@ -558,7 +558,7 @@ void PP() // Pianifica percorso
     for (i = 0; i < DT; i++)
     {
         Casella = TAB[i];
-        if (Casella && Casella != Tomb && Casella->SDist <= N2 && Casella->SDist > N1) // Da Vedere
+        if (Casella && Casella != Tomb && Casella->SDist <= N2 && Casella->SDist > N1)
         {
             Temp2 = malloc(sizeof(LStat));
             Temp->Next = Temp2;
@@ -718,7 +718,7 @@ void StPercorso(Perco *H) // Stampa la lista del percorso trovato
     printf("%ld\n", Temp->Dist);
     return;
 }
-void EliminaPercorso(Perco *PP)
+void EliminaPercorso(Perco *PP) //Elimina i percorsi temporanei generati dalle funzioni CPP e CPN
 {
     Perco *Temp;
 
@@ -744,7 +744,7 @@ void Stampa(BSTAuto *Head)
 
     return;
 }
-void StampHash()
+void StampHash() //funzione di debug. Stampa l'intera tabella Hash delle stazioni.
 {
     int i;
     Stazione *Punt;
