@@ -1,5 +1,5 @@
 # PogettoAPI23Corona
-Prova finale del corso di algoritmi e strutture dati anno 2022/2023. 30L
+Prova finale del corso di algoritmi e principi dell' informatica anno 2022/2023. 30L
 
 Tempo di esecuzione ~ 0.5s. Spazio occupato ~38MB (Test da 30L su macchina del Politecnico).
 
